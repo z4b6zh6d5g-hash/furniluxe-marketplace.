@@ -1,3 +1,4 @@
+
 import path from 'path'
 import { buildFigmaConfig } from '@payloadcms/figma'
 import { mcpPlugin } from '@payloadcms/plugin-mcp'
@@ -44,3 +45,7 @@ export default buildFigmaConfig({
   plugins: [mcpPlugin({})],
   figma: {},
 })
+
+
+  
+  
